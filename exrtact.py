@@ -32,7 +32,7 @@ with open('doid_data.csv', 'w', newline='', encoding='utf-8') as csv_file:
 
 #####################################  SYMP  #########################################
 
-symp_ontology_path = "/kaggle/input/predibioonto/symp.owl"
+symp_ontology_path = ".../symp.owl"
 symp_ontology = get_ontology("file://" + symp_ontology_path).load()
 
 with open('symp_data.csv', 'w', newline='', encoding='utf-8') as csv_file:
@@ -57,7 +57,7 @@ with open('symp_data.csv', 'w', newline='', encoding='utf-8') as csv_file:
 
 
 #####################################  DRON  #########################################
-dron_ontology_path = "/kaggle/input/predibioonto/dron.owl"
+dron_ontology_path = ".../dron.owl"
 dron_ontology = get_ontology("file://" + dron_ontology_path).load()
 
 with open('dron_data.csv', 'w', newline='', encoding='utf-8') as csv_file:
